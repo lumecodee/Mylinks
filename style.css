@@ -1,27 +1,44 @@
+
 body{
-    background-color: grey;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background: linear-gradient(135deg,#0f172a,#1e293b,#020617);
+    color:white;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     align-items:center;
-    padding: 20px;
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    min-height:100vh;
+    margin:0;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+h1{
+    color:#22d3ee;
+    font-size:28px;
+    margin-bottom:10px;
+    font-family:'Courier New', monospace;
+}
+p{
+    color:#cbd5f5;
+    font-size:14px;
+    line-height:1.5;
 }
 .card{
-    background-color: #ffffff;
-    border:1px solid #e5e7eb;
-    padding: 16px;
-    width: 90%;
-    max-width: 320px;
-    border-radius: 8px ;
-    box-shadow: 0 6px 18px rgba(16,24,40,0.6);
-    margin-bottom: 20px;
+    background-color:#0f172a;
+    border:1px solid #334155;
+    padding:20px;
+    width:90%;
+    max-width:340px;
+    border-radius:12px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+    margin-bottom:20px;
+}
+.card img{
+    border-radius:8px;
+    margin:5px;
 }
 .paragrap{
-    color:blue;
+    color:cadetblue;
     .Blospo{
         background-color: cadetblue;
     }
@@ -40,9 +57,26 @@ body{
     width: 90%;
     max-width: 320px;
 }
+.links{
+    background:#0f172a;
+    border:1px solid #334155;
+    border-radius:12px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.6);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
+    width:90%;
+    max-width:340px;
+}
+.links img{
+    transition:0.3s;
+}
+
 .links img:hover{
-    transform: scale(1.1);
-}      
+    transform:scale(1.2) rotate(5deg);
+}
 @media (max-width: 350px){
     .links img {
         width: 35px;
@@ -79,9 +113,27 @@ li{
         border-radius: 7px;
     }
     a{
-        color:black;
-        background-color: white;
+        color:white;
+        
     }
-    .Blospo{
-        background-color: cadetblue;
-    }
+    p{
+    color:#cbd5f5;
+    font-size:14px;
+    line-height:1.5;
+}
+5️⃣ Botón Blog profesional
+.Blospo{
+    display:inline-block;
+    background:black;
+    color:white;
+    padding:8px 16px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+.Blospo:hover{
+    transform:scale(1.05);
+    background:black;
+}
