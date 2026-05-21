@@ -8,31 +8,7 @@
 </head>
 <body>
     <div class="card">
-        <h1>Ismael Flores</h1>
-        <p>
-        Web and software Developer • Creator
-        </p>
-        <p>
-             Soy un estudiante autodidacta ,  El silencio es lo más sencillo, discreto y profesional.
-        </p>
-        <img src="imagenes/isma13.jpeg" width="30%" alt="imgisma">
-        <img src="imagenes/isma14.jpeg" width="30%"  alt="ismahijodeDios">
-        
-        
-        
-        <div class="hover">
-            <a href="https://ifisma.github.io/Blogspot/"><span class="Blospo">Blog-Spot</span></a>
-        </div>
-        <div class="paragrap">
-                <ul>
-            <li><img src="imagenes/gmail.png" width="25" alt="">:ismaelpiro38@gmail.com</li>
-            
-                    </ul>
-        </div>
-        
-    </div>
-
-    <div class="links">
+         <div class="links">
         
         <a href="https://www.tiktok.com/@_seraphiro_"><img src="imagenes/tik-tok.png" width="35" alt="tiktok"></a>
         <a href="https://www.instagram.com/_seraphiro_/"><img src="imagenes/instagram_f_icon-icons.com_65485.png" width="43" alt="logo"></a>
@@ -41,8 +17,194 @@
         <a href="https://www.youtube.com/@piro5707"><img src="imagenes/youtube_black_logo_icon_147044.png" width="43" alt="logo"></a>
         <a href="https://github.com/IFisma"><img src="imagenes/github_git_icon_145985.png" width="45"  alt="logo"></a>
         <a href="https://lumecodee.github.io/lumecodeonline/ "><img src="imagenes/617598362_17846599671668907_4528917818711400579_n.jpg " width="40px"></a>
+            <a href="https://kick.com/seraphiro" ><img src="imagenes/Kick Logo Symbol PNG.jpg" width="45" alt=""></a>
+<div class="paragrap">
+                <ul>
+            <li class="gmails"><img src="imagenes/gmail.png" width="17px" alt="">:ismaelpiro38@gmail.com</li>
+            
+                    </ul>
+        </div>  </div>
 
-<img src="" alt="">    </div>
 
+    <div class="hover">
+            <a href="https://ifisma.github.io/Blogspot/"><span class="Blospo">Blog-Spot</span></a>
+        </div>
+        <h1>Ismael Flores</h1>
+        <p>
+        Web and software Developer • Creator <br>
+        - Si La ignorancia no se justifica, ¿que es verdad para el ignorante?.
+     <hr>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#d4d0c8;
+    font-family:"MS Sans Serif", Tahoma, sans-serif;
+}
+
+/* BOTÓN */
+button{
+    cursor:pointer;
+}
+
+/* OVERLAY */
+.win98-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.15);
+    display:none;
+    justify-content:center;
+    align-items:center;
+}
+
+/* VENTANA */
+.win98-window{
+    width:340px;
+    background:#c0c0c0;
+
+    border-top:2px solid #fff;
+    border-left:2px solid #fff;
+    border-right:2px solid #000;
+    border-bottom:2px solid #000;
+
+    box-shadow:
+        inset -1px -1px #808080,
+        inset 1px 1px #dfdfdf;
+}
+
+/* BARRA SUPERIOR */
+.win98-titlebar{
+    height:28px;
+    background:rgb(28, 82, 126);
+    color:white;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 6px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+/* BOTÓN X */
+.win98-close{
+    width:20px;
+    height:20px;
+
+    background:#c0c0c0;
+
+    border-top:2px solid #fff;
+    border-left:2px solid #fff;
+    border-right:2px solid #000;
+    border-bottom:2px solid #000;
+
+    font-weight:bold;
+}
+
+/* CONTENIDO */
+.win98-content{
+    padding:35px 20px;
+    text-align:center;
+    font-size:16px;
+}
+
+/* BOTONES */
+.win98-buttons{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.win98-btn{
+    min-width:90px;
+    padding:6px 12px;
+
+    background:#c0c0c0;
+
+    border-top:2px solid #fff;
+    border-left:2px solid #fff;
+    border-right:2px solid #000;
+    border-bottom:2px solid #000;
+
+    font-size:14px;
+}
+
+.win98-btn:active{
+    border-top:2px solid #000;
+    border-left:2px solid #000;
+    border-right:2px solid #fff;
+    border-bottom:2px solid #fff;
+}
+</style>
+</head>
+
+<body>
+
+<button onclick="openAlert()">
+    <img src="imagenes/sticker gif _ Pixel Cat Sticker – _Pixel Cat_ – знаходьте анімації GIF і діліться ними.gif" width="150px" alt="">
+</button>
+
+<!-- ALERTA -->
+<div class="win98-overlay" id="alert98">
+
+    <div class="win98-window">
+
+        <div class="win98-titlebar">
+            <span>System message</span>
+
+            <button class="win98-close" onclick="closeAlert()">
+                ×
+            </button>
+        </div>
+
+        <div class="win98-content">
+
+            <div>
+                - Amar y soñar es para valientes.
+            </div>
+
+            <div class="win98-buttons">
+
+                <button class="win98-btn" onclick="closeAlert()">
+                    Ok
+                </button>
+
+                <button class="win98-btn" onclick="closeAlert()">
+                    Cancel
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+function openAlert(){
+    document.getElementById("alert98").style.display = "flex";
+}
+
+function closeAlert(){
+    document.getElementById("alert98").style.display = "none";
+}
+</script>
+
+        
+        
+        
+        
+    </div>
+
+   
+
+    
 </body>
 </html>
