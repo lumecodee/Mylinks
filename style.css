@@ -11,13 +11,11 @@ body{
     min-height:100vh;
     margin:0;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
-.gmails{
-    padding: 0%;
-    margin: 0%;
+
     
 
-}
 h1{
     color:#22d3ee;
     font-size:28px;
@@ -38,6 +36,8 @@ p{
     border-radius:12px;
     box-shadow:0 10px 40px rgba(0,0,0,0.6);
     margin-bottom:20px;
+    border-radius: 10px;
+    border: 2px white solid;
 }
 .card img{
     border-radius:8px;
@@ -49,11 +49,16 @@ p{
         background-color: cadetblue;
     }
 }
-
+    section p{
+        color: cadetblue;
+        background-color: bisque;
+        border-radius: 5px;
+        border: 2px rgb(150, 204, 223) solid;
+    }
 .links{
     background:rgb(28, 82, 126);
-    border:1px solid #334155;
-    border-radius:12px;
+    border:2px white solid;
+    border-radius: 12px ;
     box-shadow:0 10px 40px rgba(0,0,0,0.6);
     display:flex;
     flex-wrap:wrap;
